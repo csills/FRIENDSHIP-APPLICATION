@@ -1,0 +1,14 @@
+body {
+    background-color: #80AC60
+}
+.section1, .section2 {
+    text-align: center;
+}
+
+.friendInfo, .petList, .travelList, .beverageChoice, .crazyAdventure {
+    margin-top: 50px;
+}
+
+.form-control {
+    background-color: #495057;
+}

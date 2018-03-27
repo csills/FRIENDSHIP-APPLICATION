@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Crystal's Friendship Application</title>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+        <link rel="stylesheet" href="style.css"/>
+    </head>
+    <body>
+        <div class="section1">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 welcomeTitle">
+                        <h1>FRIENDSTER</h1>
+                        <h3>WHERE FRIENDS ARE MADE</h3>
+                    </div>
+                    <div class="col-12 peasCarrots">
+                        <img src="img/peas_n_carrots.png" />
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="section2">
+            <hr />
+            <h3>CRYSTAL IS CURRENTLY ACCEPTING FRIENDSHIP APPLICATIONS</h3>
+            <h5>ARE WE PEAS -N- CARROTS? OR JUST PEAS...</h5>
+            <hr />
+            <form>
+                <form action="mailto:sillscrystal@gmail.com" enctype="text/plain">
+                <div class="friendInfo">
+                    <h5>PLEASE TELL ME ABOUT YOURSELF:</h5>
+                    <form>
+                        <div class="form-row">
+                            <div class="col">
+                                <input type="text" class="form-control bg-dark" placeholder="First name">
+                            </div>
+                            <div class="col">
+                                <input type="text" class="form-control bg-dark" placeholder="Last name">
+                            </div>
+                        </div>
+                        <div class="form-row">
+                            <div class="col">
+                                <input type="text" class="form-control bg-dark" placeholder="Age">
+                            </div>
+                            <div class="col">
+                                <input type="text" class="form-control bg-dark" placeholder="Favorite Hobby">
+                            </div>
+                        </div>
+                    </form>
+                </div>
+
+                <div class="petList">
+                    <h5>CHOOSE WISELY!</h5>
+                    <select class="custom-select bg-dark">
+                        <option selected>WHICH PET DO YOU PREFER?</option>
+                        <option value="1">DOG</option>
+                        <option value="2">CAT</option>
+                        <option value="3">JAPANESE CHIN</option>
+                    </select>
+                </div>
+
+                <div class="travelList">
+                    <h5>TRAVEL MUCH?</H5>
+                    <H6>WHICH OF THE FOLLOWING DESTINATIONS HAVE YOU VISITED?</H6>
+                    <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1">
+                        <label class="form-check-label" for="inlineCheckbox1">NEW ZEALAND</label>
+                    </div>
+                    <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1">
+                        <label class="form-check-label" for="inlineCheckbox1">THAILAND</label>
+                    </div>
+                    <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1">
+                        <label class="form-check-label" for="inlineCheckbox1">PARIS</label>
+                    </div>
+                    <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1">
+                        <label class="form-check-label" for="inlineCheckbox1">HAWAII</label>
+                    </div>
+                    <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1">
+                        <label class="form-check-label" for="inlineCheckbox1">ALASKA</label>
+                    </div>
+                    <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1">
+                        <label class="form-check-label" for="inlineCheckbox1">PRAGUE</label>
+                    </div>
+                </div>
+
+                <div class="beverageChoice mt-10">
+                    <h5>WHAT IS YOUR FAVORITE RELAXATION BEVERAGE?</h5>
+                    <H6>CHOOSE ONE:</H6>
+                    <div class="custom-control custom-radio">
+                        <input type="radio" id="customRadio" name="customRadio" class="custom-control-input">
+                        <label class="custom-control-label" for="customRadio">WINE</label>
+                    </div>
+                    <div class="custom-control custom-radio">
+                        <input type="radio" id="customRadio" name="customRadio" class="custom-control-input">
+                        <label class="custom-control-label" for="customRadio">BEER</label>
+                    </div>
+                    <div class="custom-control custom-radio">
+                        <input type="radio" id="customRadio" name="customRadio" class="custom-control-input">
+                        <label class="custom-control-label" for="customRadio">COFFEE</label>
+                    </div>
+                    <div class="custom-control custom-radio">
+                        <input type="radio" id="customRadio" name="customRadio" class="custom-control-input">
+                        <label class="custom-control-label" for="customRadio">TEA</label>
+                    </div>
+                </div>
+
+                <div class="crazyAdventure">
+                    <div class="form-group">
+                        <label for="exampleFormControlTextarea1"><h5>TELL ME ABOUT THE MOST SPONTANEOUS ADVENTURE YOU HAVE EVER TAKEN:</h5></label>
+                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                    </div>        
+                </div>
+
+                <button type="submit" class="btn btn-dark">SUBMIT</button>
+            </form>
+        </div>
+    </body>
+</html>
